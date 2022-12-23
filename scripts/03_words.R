@@ -1,4 +1,5 @@
 library(tidyverse)
+library(tidytext)
 library(stopwords)
 library(stringr)
 library(stylo)
