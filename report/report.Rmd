@@ -11,8 +11,8 @@ knitr::opts_chunk$set(echo = TRUE)
 Link to Capstone_Scebba: https://github.com/DataAccess2020/Capstone_Scebba.git
 Link to Capstone_Scebba2: https://github.com/DataAccess2020/Capstone_Scebba2.git
 
-Total commit for Capstone_Scebba: 
-Total commit for Capstone_Scebba2: 
+Total commit for Capstone_Scebba: 16 commits
+Total commit for Capstone_Scebba2: 11 commits
 
 
 
