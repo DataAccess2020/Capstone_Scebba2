@@ -8,17 +8,17 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-Link to Capstone_Scebba: https://github.com/DataAccess2020/Capstone_Scebba.git
-Link to Capstone_Scebba2: https://github.com/DataAccess2020/Capstone_Scebba2.git
+- Link to Capstone_Scebba: https://github.com/DataAccess2020/Capstone_Scebba.git
+- Link to Capstone_Scebba2: https://github.com/DataAccess2020/Capstone_Scebba2.git
 
-Total commit for Capstone_Scebba: 16 commits
-Total commit for Capstone_Scebba2: 11 commits
+- Total commit for Capstone_Scebba: 16 commits
+- Total commit for Capstone_Scebba2: 11 commits
 
 
 
 ## Introduction
 
-In this project, I decided to study the discussion of Lombardia's politicians on Twitter. On February, people who live in this region of Italy will vote for the president and the Consiglio Regionale. Thus, my interest is to analyse around what is the discussion between politicians from the right and left wing.
+In this project, I decided to study the discussion of Lombardia's politicians on Twitter. On February, people who live in this region of Italy will vote for the president and the Consiglio Regionale. Thus, my interest is to analyse what is the discussion around politicians from the right and left wing.
 
 
 
@@ -174,10 +174,16 @@ cloud_right <- wordcloud2(data=words_right, size=0.35, shuffle =F,
 print(cloud_right)
 ```
 
-![Words Cloud of Left Politicians in Lombardia](C:/Users/utente/OneDrive/Desktop/sara/magistrale/data access/Capstone_Scebba2/report/words_cloud_left.png)
+![Words Cloud of Left Politicians in Lombardia](C:/Users/utente/OneDrive/Desktop/sara/magistrale/data access/Capstone_Scebba2/output/words_cloud_left.png)
 
-![Words Cloud of Right Politicians in Lombardia](C:/Users/utente/OneDrive/Desktop/sara/magistrale/data access/Capstone_Scebba2/report/word_cloud_right.png)
+![Words Cloud of Right Politicians in Lombardia](C:/Users/utente/OneDrive/Desktop/sara/magistrale/data access/Capstone_Scebba2/output/word_cloud_right.png)
 
 
 
+## Conclusion
+
+Looking at the two words cloud we can make a few assumptions. 
+Left polticians' most used words in Lombardia are two cities: "Milano" and "Cremona", which are both administered by PD mayors. 
+Right politician' most used words in Lombardia are: "Salvini", who is the leader of "Lega", another very used words. 
+Both clouds show that the word "lombardia" has been used a lot, which is expected since the election are happing soon.
 
