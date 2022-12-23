@@ -31,7 +31,7 @@ words_left <- tibble(text = tweets_left$full_text) %>%
   dplyr::anti_join(stop_words_ita)%>%
   count(word, sort = TRUE)
 
-words_right <- tibble(text = tweets_left$full_text) %>%
+words_right <- tibble(text = tweets_right$full_text) %>%
   unnest_tokens(word, text) %>%
   dplyr::anti_join(stop_words_ita)%>%
   count(word, sort = TRUE)
